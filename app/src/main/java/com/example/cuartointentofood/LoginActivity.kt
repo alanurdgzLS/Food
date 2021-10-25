@@ -35,6 +35,18 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
         }
+        binding.signUpTextView.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    public override fun onStart() {
+        super.onStart()
+        val currentUser = auth.currentUser
+        if(currentUser != null){
+            reload();
+        }
     }
 
     private fun SignIn (email: String, password: String){
