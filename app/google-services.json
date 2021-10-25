@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389041102784",
+    "project_id": "cuartointentofood",
+    "storage_bucket": "cuartointentofood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389041102784:android:69e39ce841d94a8494f225",
+        "android_client_info": {
+          "package_name": "com.example.cuartointentofood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389041102784-f5p4kf12ms7nri21e0cf2hlj0g9lvu9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKlne9I1uWEYn8V0i-N0dWulgCUOjfR-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389041102784-f5p4kf12ms7nri21e0cf2hlj0g9lvu9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
